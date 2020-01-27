@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module complejo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>complejo</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cleidy%20ducuara%5Cdocuments%5Ccnyt%20libreria%20complejos%5Ccomplejo.py">c:\users\leidy ducuara\documents\cnyt libreria complejos\complejo.py</a></font></td></tr></table>
+    <p><tt>Elaborado&nbsp;por&nbsp;Leidy&nbsp;Marcela&nbsp;Ducuara<br>
+Número&nbsp;de&nbsp;carnet&nbsp;2164403<br>
+Descripción:&nbsp;A&nbsp;lo&nbsp;largo&nbsp;de&nbsp;esta&nbsp;librería&nbsp;se&nbsp;definirán&nbsp;funciones&nbsp;que&nbsp;nos&nbsp;permitiran&nbsp;manipular&nbsp;número&nbsp;complejos,que&nbsp;se&nbsp;representaran&nbsp;la&nbsp;mayoria&nbsp;de&nbsp;las&nbsp;veces&nbsp;como<br>
+un&nbsp;arreglo&nbsp;[a,b]</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="math.html">math</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-conjugado"><strong>conjugado</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;conjugado&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;el&nbsp;conjugado&nbsp;del&nbsp;mismo&nbsp;número&nbsp;y&nbsp;de&nbsp;la&nbsp;misma&nbsp;forma</tt></dd></dl>
+ <dl><dt><a name="-conv_a_cartesiana"><strong>conv_a_cartesiana</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;conv_a_cartesiana&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;debe&nbsp;estar&nbsp;<br>
+en&nbsp;forma&nbsp;polar&nbsp;para&nbsp;que&nbsp;la&nbsp;función&nbsp;retorne&nbsp;el&nbsp;mismo&nbsp;número&nbsp;en&nbsp;forma&nbsp;cartesiana&nbsp;[a,b],&nbsp;donde&nbsp;a&nbsp;=&nbsp;p*cos(θ)&nbsp;<br>
+y&nbsp;b&nbsp;=&nbsp;p*sen(θ)</tt></dd></dl>
+ <dl><dt><a name="-conv_a_polar"><strong>conv_a_polar</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;con_a_polar&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;debe&nbsp;estar&nbsp;<br>
+en&nbsp;forma&nbsp;cartesiana&nbsp;para&nbsp;que&nbsp;la&nbsp;función&nbsp;retorne&nbsp;el&nbsp;mismo&nbsp;número&nbsp;en&nbsp;forma&nbsp;polar&nbsp;[p,θ],&nbsp;para&nbsp;esto&nbsp;emplearemos<br>
+funciones&nbsp;creadadas&nbsp;con&nbsp;anterioridad&nbsp;como&nbsp;lo&nbsp;son&nbsp;modulo&nbsp;y&nbsp;<a href="#-fase">fase</a>(radianes)</tt></dd></dl>
+ <dl><dt><a name="-division"><strong>division</strong></a>(c1, c2)</dt><dd><tt>La&nbsp;función&nbsp;división&nbsp;recibe&nbsp;dos&nbsp;números:&nbsp;c1&nbsp;y&nbsp;c2&nbsp;(que&nbsp;deben&nbsp;ser&nbsp;listas&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;un&nbsp;número&nbsp;complejo&nbsp;de&nbsp;la&nbsp;misma&nbsp;forma,&nbsp;correspondiente&nbsp;a&nbsp;la&nbsp;operación&nbsp;c1&nbsp;/&nbsp;c2,&nbsp;recurriendo<br>
+a&nbsp;la&nbsp;multiplicación&nbsp;arriba&nbsp;y&nbsp;abajo&nbsp;por&nbsp;el&nbsp;conjugado&nbsp;del&nbsp;número&nbsp;complejo&nbsp;c2</tt></dd></dl>
+ <dl><dt><a name="-fase"><strong>fase</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;fase&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;un&nbsp;número&nbsp;correspondiente&nbsp;al&nbsp;angulo&nbsp;θ&nbsp;en&nbsp;radianes</tt></dd></dl>
+ <dl><dt><a name="-imprimir"><strong>imprimir</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;imprimir&nbsp;recibe&nbsp;un&nbsp;número&nbsp;complejo&nbsp;de&nbsp;la&nbsp;forma&nbsp;[a,b]&nbsp;y&nbsp;lo&nbsp;devuelve&nbsp;de&nbsp;la&nbsp;forma&nbsp;a+bi</tt></dd></dl>
+ <dl><dt><a name="-imprimir_ca_exponencial"><strong>imprimir_ca_exponencial</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;imprimir_ca_exponensial&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;debe&nbsp;estar&nbsp;<br>
+en&nbsp;forma&nbsp;cartesiana&nbsp;[a,b]&nbsp;para&nbsp;que&nbsp;la&nbsp;función&nbsp;retorne&nbsp;el&nbsp;mismo&nbsp;número&nbsp;complejo&nbsp;pero&nbsp;de&nbsp;la&nbsp;forma&nbsp;exponensial&nbsp;(pe^(iθ))</tt></dd></dl>
+ <dl><dt><a name="-imprimir_po_exponencial"><strong>imprimir_po_exponencial</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;imprimir_po_exponensial&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;debe&nbsp;estar&nbsp;<br>
+en&nbsp;forma&nbsp;polar&nbsp;para&nbsp;que&nbsp;la&nbsp;función&nbsp;retorne&nbsp;el&nbsp;mismo&nbsp;número&nbsp;complejo&nbsp;pero&nbsp;de&nbsp;la&nbsp;forma&nbsp;exponensial&nbsp;(pe^(iθ))</tt></dd></dl>
+ <dl><dt><a name="-modulo"><strong>modulo</strong></a>(c1)</dt><dd><tt>La&nbsp;función&nbsp;modulo&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;un&nbsp;número&nbsp;correspondiente&nbsp;a&nbsp;la&nbsp;raiz&nbsp;de&nbsp;(c1[0]^2+c1[1]^2)</tt></dd></dl>
+ <dl><dt><a name="-multiplicacion"><strong>multiplicacion</strong></a>(c1, c2)</dt><dd><tt>La&nbsp;función&nbsp;multiplicación&nbsp;recibe&nbsp;dos&nbsp;números:&nbsp;c1&nbsp;y&nbsp;c2&nbsp;(que&nbsp;deben&nbsp;ser&nbsp;listas&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;un&nbsp;número&nbsp;complejo&nbsp;de&nbsp;la&nbsp;misma&nbsp;forma,&nbsp;correspondiente&nbsp;a&nbsp;la&nbsp;operación&nbsp;c1&nbsp;*&nbsp;c2</tt></dd></dl>
+ <dl><dt><a name="-potencia"><strong>potencia</strong></a>(n, c1)</dt><dd><tt>La&nbsp;función&nbsp;potencia&nbsp;recibe&nbsp;un&nbsp;número:&nbsp;c1&nbsp;(que&nbsp;debe&nbsp;ser&nbsp;una&nbsp;lista&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;debe&nbsp;estar&nbsp;<br>
+en&nbsp;forma&nbsp;cartesiana&nbsp;[a,b]&nbsp;y&nbsp;un&nbsp;número&nbsp;n&nbsp;que&nbsp;será&nbsp;la&nbsp;potencia&nbsp;que&nbsp;queremos&nbsp;del&nbsp;número&nbsp;complejo,&nbsp;la&nbsp;función&nbsp;debe&nbsp;retornar&nbsp;<br>
+un&nbsp;número&nbsp;[c,d]&nbsp;donde&nbsp;el&nbsp;módulo&nbsp;es&nbsp;la&nbsp;potencia&nbsp;n-ésima&nbsp;del&nbsp;módulo&nbsp;original&nbsp;y&nbsp;su&nbsp;argumento&nbsp;(ángulo&nbsp;en&nbsp;radianes)&nbsp;es&nbsp;n&nbsp;veces&nbsp;<br>
+el&nbsp;argumento&nbsp;dado.</tt></dd></dl>
+ <dl><dt><a name="-resta"><strong>resta</strong></a>(c1, c2)</dt><dd><tt>La&nbsp;función&nbsp;resta&nbsp;recibe&nbsp;dos&nbsp;números:&nbsp;c1&nbsp;y&nbsp;c2&nbsp;(que&nbsp;deben&nbsp;ser&nbsp;listas&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;un&nbsp;número&nbsp;complejo&nbsp;de&nbsp;la&nbsp;misma&nbsp;forma,&nbsp;correspondiente&nbsp;a&nbsp;la&nbsp;operación&nbsp;c1&nbsp;-&nbsp;c2</tt></dd></dl>
+ <dl><dt><a name="-suma"><strong>suma</strong></a>(c1, c2)</dt><dd><tt>La&nbsp;función&nbsp;suma&nbsp;recibe&nbsp;dos&nbsp;números:&nbsp;c1&nbsp;y&nbsp;c2&nbsp;(que&nbsp;deben&nbsp;ser&nbsp;listas&nbsp;de&nbsp;longitud&nbsp;dos)&nbsp;y&nbsp;<br>
+retorna&nbsp;un&nbsp;número&nbsp;complejo&nbsp;de&nbsp;la&nbsp;misma&nbsp;forma,&nbsp;correspondiente&nbsp;a&nbsp;la&nbsp;operación&nbsp;c1&nbsp;+&nbsp;c2</tt></dd></dl>
+</td></tr></table>
+</body></html>
